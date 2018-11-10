@@ -1,0 +1,6 @@
+color = input("Enter the color : ")
+pronun_color = input("Enter the pronun_color : ")
+celebrity = input("Enter the celebrity : ")
+print("Roses are " + color)
+print(pronun_color + " are grey")
+print("My favourite celebrity is " + celebrity)
