@@ -4,9 +4,11 @@ friends.extend(lucky_numbers)# add the list to another list
 friends.append("Sangeetha")# add the elements to the list
 friends.insert(3,"Geetha")# Inserts the elemenst at specified position
 friends.remove("Shandy")
+
 lucky_numbers.sort()
 print(lucky_numbers)
 print(friends)
+
 friends.reverse()
 print(friends)
 friends2=friends.copy()
