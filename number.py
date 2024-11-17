@@ -13,4 +13,4 @@ print(ceil(3.1))
 print(sqrt(4));
 #print(cbrt(27))
 print(factorial(5))
-print(fmod(5,3)#modularity of the number
+print(fmod(5,3))#modularity of the number
