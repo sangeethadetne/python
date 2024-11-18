@@ -1,9 +1,8 @@
 marks = int(input("Enter the marks:"))
 
-if marks>35:
-    if marks > 80:
-        print(" A Grade")
-    else:
-        print("didnt get A grade")
+if marks > 80:
+    print(" A Grade")
+elif marks > 35 :
+        print(" Didnt secure A grade")
 else:
     print("fail")
