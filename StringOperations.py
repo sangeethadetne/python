@@ -48,6 +48,7 @@ print(len(fname))
 #silicing - helps  to get the slice of the string 
 #strings are immutable one cannot make  make chnages in strings defination
 order_status = "completed order"
+print("==============================")
 print(order_status[-2])
 print(order_status[0:7])
 print(order_status[10:len(order_status)])
@@ -61,3 +62,13 @@ print(order_status.split(" ")[1])
 index =order_status.find(" ")
 print(order_status[index+1:])
 print(order_status[0:index-1])
+print("======================================")
+print(order_status[-5:-1])
+print(order_status[1:9:2])
+#reverse the string 
+print(order_status[::-1])
+#find will give -1 if it doesn;t find the characters that it wants 
+print(order_status.find("*"))
+print(order_status.find("e"))
+# this throws exception if the character is not find
+print(order_status.index("s"))
