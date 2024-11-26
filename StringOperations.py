@@ -47,7 +47,7 @@ print(len(fname))
 #indexing - help to get a particular character
 #silicing - helps  to get the slice of the string 
 #strings are immutable one cannot make  make chnages in strings defination
-order_status = "completed order"
+order_status = "complete order"
 print("==============================")
 print(order_status[-2])
 print(order_status[0:7])
@@ -71,4 +71,10 @@ print(order_status[::-1])
 print(order_status.find("*"))
 print(order_status.find("e"))
 # this throws exception if the character is not find
-print(order_status.index("s"))
+#print(order_status.index("s"))
+print(order_status.endswith("order"))
+print(order_status.capitalize())
+#remove the left and right spaces using rstrip or lstrip
+print(order_status.strip())
+new_string= order_status.replace("complete","compeleted")
+print(new_string)
