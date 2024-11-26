@@ -55,3 +55,9 @@ print(order_status[9:])
 print(order_status[:8])
 # this preints the words from last 5 characters
 print(order_status[-5:])
+# print second word after the space
+print(order_status.split(" ")[1])
+# print second word after the space without using split
+index =order_status.find(" ")
+print(order_status[index+1:])
+print(order_status[0:index-1])
