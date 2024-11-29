@@ -22,5 +22,5 @@ print(f" tuples in List :{orders_gst1}")
 
 #List Comprehension:
 
-orders_gst1_new =[x[0]+x[0]*x[1]/100 for x in orders_amount1]
+orders_gst1_new =[(x[0],x[1],x[0]+x[0]*x[1]/100) for x in orders_amount1]
 print(f"Using List comprehension way while using Tuple :{orders_gst1_new}")
